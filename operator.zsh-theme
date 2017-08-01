@@ -48,6 +48,7 @@ ys_hg_prompt_info() {
 PROMPT="
 %{$terminfo[bold]$fg[blue]%}$%{$reset_color%} \
 %{$fg[cyan]%}%n \
+%{$fg[white]%}at \
 %{$fg[green]%}$(box_name) \
 %{$fg[white]%}in \
 %{$fg[yellow]%}${current_dir}%{$reset_color%}\
